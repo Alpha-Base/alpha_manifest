@@ -474,6 +474,6 @@
   <project path="device/huawei/angler" name="solo_huawei_angler" remote="solo" revision="android-6.0.1" />
   <project path="frameworks/base" name="solo_frameworks_base" remote="solo" revision="android-6.0.1" />
   <project path="packages/apps/Settings" name="solo_packages_apps_Settings" remote="solo" revision="android-6.0.1" />
-  <project path="vendor/huawei" name="proprietary_vendor_huawei" remote="solo" revision="android-6.0.1" />
+  <project path="vendor/huawei" name="solo_proprietary_vendor_huawei" remote="solo" revision="android-6.0.1" />
   <project path="vendor/solo" name="solo_vendor" remote="solo" revision="android-6.0.1" />
 </manifest>
