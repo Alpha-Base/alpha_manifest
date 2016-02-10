@@ -466,7 +466,7 @@
   <project path="device/huawei/angler" name="solo_huawei_angler" remote="solo" revision="android-6.0.1" />
   <project path="external/busybox" name="solo_external_busybox" remote="solo" revision="android-6.0.1" />
   <project path="frameworks/base" name="solo_frameworks_base" remote="solo" revision="android-6.0.1" />
-  <project path="frameworks_native" name="solo_frameworks_native" remote="solo" revision="android-6.0.1" />
+  <project path="frameworks/native" name="solo_frameworks_native" remote="solo" revision="android-6.0.1" />
   <project path="packages/apps/Browser" name="solo_packages_apps_Browser" remote="solo" revision="android-6.0.1"/>
   <project path="packages/apps/Contacts" name="solo_packages_apps_Contacts" remote="solo" revision="android-6.0.1"/>
   <project path="packages/apps/ContactsCommon" name="solo_packages_apps_ContactsCommon" remote="solo" revision="android-6.0.1" />
