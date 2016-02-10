@@ -265,7 +265,6 @@
   <project path="frameworks/minikin" name="platform/frameworks/minikin" groups="pdk-cw-fs,pdk-fs" />
   <project path="frameworks/ml" name="platform/frameworks/ml" groups="pdk-cw-fs,pdk-fs" />
   <project path="frameworks/multidex" name="platform/frameworks/multidex" groups="pdk-cw-fs,pdk-fs" />
-  <project path="frameworks/native" name="platform/frameworks/native" groups="pdk" />
   <project path="frameworks/opt/bitmap" name="platform/frameworks/opt/bitmap" groups="pdk-fs" />
   <project path="frameworks/opt/bluetooth" name="platform/frameworks/opt/bluetooth" groups="pdk-cw-fs,pdk-fs" />
   <project path="frameworks/opt/calendar" name="platform/frameworks/opt/calendar" groups="pdk-cw-fs,pdk-fs" />
@@ -340,7 +339,6 @@
   <project path="ndk" name="platform/ndk" groups="generic_fs" />
   <project path="packages/apps/BasicSmsReceiver" name="platform/packages/apps/BasicSmsReceiver" groups="pdk-cw-fs,pdk-fs" />
   <project path="packages/apps/Bluetooth" name="platform/packages/apps/Bluetooth" groups="pdk-cw-fs,pdk-fs" />
-  <project path="packages/apps/Browser" name="platform/packages/apps/Browser" groups="pdk-fs"/>
   <project path="packages/apps/Calculator" name="platform/packages/apps/Calculator" groups="pdk-fs" />
   <project path="packages/apps/Calendar" name="platform/packages/apps/Calendar" groups="pdk-fs" />
   <project path="packages/apps/Camera" name="platform/packages/apps/Camera" groups="pdk-fs" />
@@ -348,9 +346,6 @@
   <project path="packages/apps/CarrierConfig" name="platform/packages/apps/CarrierConfig" groups="pdk-fs" />
   <project path="packages/apps/CellBroadcastReceiver" name="platform/packages/apps/CellBroadcastReceiver" groups="pdk-fs" />
   <project path="packages/apps/CertInstaller" name="platform/packages/apps/CertInstaller" groups="pdk-cw-fs,pdk-fs" />
-  <project path="packages/apps/Contacts" name="platform/packages/apps/Contacts" groups="pdk-fs" />
-  <project path="packages/apps/ContactsCommon" name="platform/packages/apps/ContactsCommon" groups="pdk-fs"/>
-  <project path="packages/apps/DeskClock" name="platform/packages/apps/DeskClock" groups="pdk-fs" />
   <project path="packages/apps/Dialer" name="platform/packages/apps/Dialer" groups="pdk-fs" />
   <project path="packages/apps/Email" name="platform/packages/apps/Email" groups="pdk-fs" />
   <project path="packages/apps/ExactCalculator" name="platform/packages/apps/ExactCalculator" groups="pdk-fs" />
@@ -370,9 +365,7 @@
   <project path="packages/apps/MusicFX" name="platform/packages/apps/MusicFX" groups="pdk-fs" />
   <project path="packages/apps/Nfc" name="platform/packages/apps/Nfc" groups="apps_nfc,pdk-fs" />
   <project path="packages/apps/OneTimeInitializer" name="platform/packages/apps/OneTimeInitializer" groups="pdk-fs" />
-  <project path="packages/apps/PackageInstaller" name="platform/packages/apps/PackageInstaller" groups="pdk-fs" />
   <project path="packages/apps/Phone" name="platform/packages/apps/Phone" groups="pdk-fs" />
-  <project path="packages/apps/PhoneCommon" name="platform/packages/apps/PhoneCommon" groups="pdk-cw-fs,pdk-fs"/>
   <project path="packages/apps/Protips" name="platform/packages/apps/Protips" groups="pdk-fs" />
   <project path="packages/apps/Provision" name="platform/packages/apps/Provision" groups="pdk-fs" />
   <project path="packages/apps/QuickSearchBox" name="platform/packages/apps/QuickSearchBox" groups="pdk-fs" />
@@ -448,7 +441,6 @@
   <project path="prebuilts/tools" name="platform/prebuilts/tools" groups="pdk,tools" />
   <project path="sdk" name="platform/sdk" groups="pdk-cw-fs,pdk-fs" />
   <project path="system/bt" name="platform/system/bt" groups="pdk" />
-  <project path="system/core" name="platform/system/core" groups="pdk" />
   <project path="system/extras" name="platform/system/extras" groups="pdk" />
   <project path="system/gatekeeper" name="platform/system/gatekeeper" groups="pdk" />
   <project path="system/keymaster" name="platform/system/keymaster" groups="pdk" />
@@ -472,8 +464,20 @@
   <project path="tools/tradefederation" name="platform/tools/tradefederation" groups="notdefault,tradefed" />
   <!-- Solo additions-->
   <project path="device/huawei/angler" name="solo_huawei_angler" remote="solo" revision="android-6.0.1" />
+  <project path="external/busybox" name="solo_external_busybox" remote="solo" revision="android-6.0.1" />
   <project path="frameworks/base" name="solo_frameworks_base" remote="solo" revision="android-6.0.1" />
+  <project path="frameworks_native" name="solo_frameworks_native" remote="solo" revision="android-6.0.1" />
+  <project path="packages/apps/Browser" name="solo_packages_apps_Browser" remote="solo" revision="android-6.0.1"/>
+  <project path="packages/apps/Contacts" name="solo_packages_apps_Contacts" remote="solo" revision="android-6.0.1"/>
+  <project path="packages/apps/ContactsCommon" name="solo_packages_apps_ContactsCommon" remote="solo" revision="android-6.0.1" />
+  <project path="packages/apps/DeskClock" name="solo_packages_apps_DeskClock" remote="solo" revision="android-6.0.1" />
+  <project path="packages/apps/PackageInstaller" name="solo_packages_apps_PackageInstaller" remote="solo" revision="android-6.0.1" />
+  <project path="packages/apps/PhoneCommon" name="solo_packages_apps_PhoneCommon" remote="solo" revision="android-6.0.1" />
   <project path="packages/apps/Settings" name="solo_packages_apps_Settings" remote="solo" revision="android-6.0.1" />
+  <project path="packages/apps/ThemeChooser" name="solo_packages_apps_ThemeChooser" remote="solo" revision="android-6.0.1" />
+  <project path="packages/providers/ThemesProviders" name="solo_packages_providers_ThemesProvider" remote="solo" revision="android-6.0.1" />
+  <project path="packages/services/OmniJaws" name="solo_packages_services_OmniJaws" remote="solo" revision="android-6.0.1" />
+  <project path="system/core" name="solo_system_core" remote="solo" revision="android-6.0.1" />
   <project path="vendor/huawei" name="solo_proprietary_vendor_huawei" remote="solo" revision="android-6.0.1" />
   <project path="vendor/solo" name="solo_vendor" remote="solo" revision="android-6.0.1" />
 </manifest>
