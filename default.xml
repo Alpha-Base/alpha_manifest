@@ -475,7 +475,7 @@
   <project path="packages/apps/PhoneCommon" name="solo_packages_apps_PhoneCommon" remote="solo" revision="android-6.0.1" />
   <project path="packages/apps/Settings" name="solo_packages_apps_Settings" remote="solo" revision="android-6.0.1" />
   <project path="packages/apps/ThemeChooser" name="solo_packages_apps_ThemeChooser" remote="solo" revision="android-6.0.1" />
-  <project path="packages/providers/ThemesProviders" name="solo_packages_providers_ThemesProvider" remote="solo" revision="android-6.0.1" />
+  <project path="packages/providers/ThemesProvider" name="solo_packages_providers_ThemesProvider" remote="solo" revision="android-6.0.1" />
   <project path="packages/services/OmniJaws" name="solo_packages_services_OmniJaws" remote="solo" revision="android-6.0.1" />
   <project path="system/core" name="solo_system_core" remote="solo" revision="android-6.0.1" />
   <project path="vendor/huawei" name="solo_proprietary_vendor_huawei" remote="solo" revision="android-6.0.1" />
