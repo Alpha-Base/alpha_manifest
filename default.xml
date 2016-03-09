@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
-  <remote  name="solo"
-           fetch="https://github.com/Solo-Rom/" />
+  <remote  name="alpha"
+           fetch="https://github.com/Alpha-Base/" />
            
   <remote  name="github"
            fetch="https://github.com/" />
@@ -15,7 +15,7 @@
            remote="aosp"
            sync-j="8" />
 
-  <project path="build" name="solo_build" remote="solo" revision="android-6.0.1" >
+  <project path="build" name="alpha_build" remote="alpha" revision="android-6.0.1" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
   <project path="abi/cpp" name="platform/abi/cpp" groups="pdk" />
@@ -462,22 +462,22 @@
   <project path="tools/studio/translation" name="platform/tools/studio/translation" groups="notdefault,tools" />
   <project path="tools/swt" name="platform/tools/swt" groups="notdefault,tools" />
   <project path="tools/tradefederation" name="platform/tools/tradefederation" groups="notdefault,tradefed" />
-  <!-- Solo additions-->
-  <project path="device/huawei/angler" name="solo_huawei_angler" remote="solo" revision="android-6.0.1" />
-  <project path="external/busybox" name="solo_external_busybox" remote="solo" revision="android-6.0.1" />
-  <project path="frameworks/base" name="solo_frameworks_base" remote="solo" revision="android-6.0.1" />
-  <project path="frameworks/native" name="solo_frameworks_native" remote="solo" revision="android-6.0.1" />
-  <project path="packages/apps/Browser" name="solo_packages_apps_Browser" remote="solo" revision="android-6.0.1"/>
-  <project path="packages/apps/Contacts" name="solo_packages_apps_Contacts" remote="solo" revision="android-6.0.1"/>
-  <project path="packages/apps/ContactsCommon" name="solo_packages_apps_ContactsCommon" remote="solo" revision="android-6.0.1" />
-  <project path="packages/apps/DeskClock" name="solo_packages_apps_DeskClock" remote="solo" revision="android-6.0.1" />
-  <project path="packages/apps/PackageInstaller" name="solo_packages_apps_PackageInstaller" remote="solo" revision="android-6.0.1" />
-  <project path="packages/apps/PhoneCommon" name="solo_packages_apps_PhoneCommon" remote="solo" revision="android-6.0.1" />
-  <project path="packages/apps/Settings" name="solo_packages_apps_Settings" remote="solo" revision="android-6.0.1" />
-  <project path="packages/apps/ThemeChooser" name="solo_packages_apps_ThemeChooser" remote="solo" revision="android-6.0.1" />
-  <project path="packages/providers/ThemesProvider" name="solo_packages_providers_ThemesProvider" remote="solo" revision="android-6.0.1" />
-  <project path="packages/services/OmniJaws" name="solo_packages_services_OmniJaws" remote="solo" revision="android-6.0.1" />
-  <project path="system/core" name="solo_system_core" remote="solo" revision="android-6.0.1" />
-  <project path="vendor/huawei" name="solo_proprietary_vendor_huawei" remote="solo" revision="android-6.0.1" />
-  <project path="vendor/solo" name="solo_vendor" remote="solo" revision="android-6.0.1" />
+  <!-- alpha additions-->
+  <project path="device/huawei/angler" name="alpha_huawei_angler" remote="alpha" revision="android-6.0.1" />
+  <project path="external/busybox" name="alpha_external_busybox" remote="alpha" revision="android-6.0.1" />
+  <project path="frameworks/base" name="alpha_frameworks_base" remote="alpha" revision="android-6.0.1" />
+  <project path="frameworks/native" name="alpha_frameworks_native" remote="alpha" revision="android-6.0.1" />
+  <project path="packages/apps/Browser" name="alpha_packages_apps_Browser" remote="alpha" revision="android-6.0.1"/>
+  <project path="packages/apps/Contacts" name="alpha_packages_apps_Contacts" remote="alpha" revision="android-6.0.1"/>
+  <project path="packages/apps/ContactsCommon" name="alpha_packages_apps_ContactsCommon" remote="alpha" revision="android-6.0.1" />
+  <project path="packages/apps/DeskClock" name="alpha_packages_apps_DeskClock" remote="alpha" revision="android-6.0.1" />
+  <project path="packages/apps/PackageInstaller" name="alpha_packages_apps_PackageInstaller" remote="alpha" revision="android-6.0.1" />
+  <project path="packages/apps/PhoneCommon" name="alpha_packages_apps_PhoneCommon" remote="alpha" revision="android-6.0.1" />
+  <project path="packages/apps/Settings" name="alpha_packages_apps_Settings" remote="alpha" revision="android-6.0.1" />
+  <project path="packages/apps/ThemeChooser" name="alpha_packages_apps_ThemeChooser" remote="alpha" revision="android-6.0.1" />
+  <project path="packages/providers/ThemesProvider" name="alpha_packages_providers_ThemesProvider" remote="alpha" revision="android-6.0.1" />
+  <project path="packages/services/OmniJaws" name="alpha_packages_services_OmniJaws" remote="alpha" revision="android-6.0.1" />
+  <project path="system/core" name="alpha_system_core" remote="alpha" revision="android-6.0.1" />
+  <project path="vendor/huawei" name="alpha_proprietary_vendor_huawei" remote="alpha" revision="android-6.0.1" />
+  <project path="vendor/solo" name="alpha_vendor" remote="alpha" revision="android-6.0.1" />
 </manifest>
