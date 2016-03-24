@@ -465,6 +465,7 @@
   <!-- alpha additions-->
   <project path="device/huawei/angler" name="alpha_huawei_angler" remote="alpha" revision="android-6.0.1" />
   <project path="external/busybox" name="alpha_external_busybox" remote="alpha" revision="android-6.0.1" />
+  <project path="external/DUtils" name="alpha_external_DUtils" remote="alpha" revision="android-6.0.1" />
   <project path="frameworks/base" name="alpha_frameworks_base" remote="alpha" revision="android-6.0.1" />
   <project path="frameworks/native" name="alpha_frameworks_native" remote="alpha" revision="android-6.0.1" />
   <project path="packages/apps/Browser" name="alpha_packages_apps_Browser" remote="alpha" revision="android-6.0.1"/>
@@ -474,6 +475,7 @@
   <project path="packages/apps/PackageInstaller" name="alpha_packages_apps_PackageInstaller" remote="alpha" revision="android-6.0.1" />
   <project path="packages/apps/PhoneCommon" name="alpha_packages_apps_PhoneCommon" remote="alpha" revision="android-6.0.1" />
   <project path="packages/apps/Settings" name="alpha_packages_apps_Settings" remote="alpha" revision="android-6.0.1" />
+  <project path="packages/apps/DUI" name="alpha_packages_apps_DUI" remote="alpha" revision="android-6.0.1" />
   <project path="packages/apps/ThemeChooser" name="alpha_packages_apps_ThemeChooser" remote="alpha" revision="android-6.0.1" />
   <project path="packages/providers/ThemesProvider" name="alpha_packages_providers_ThemesProvider" remote="alpha" revision="android-6.0.1" />
   <project path="packages/services/OmniJaws" name="alpha_packages_services_OmniJaws" remote="alpha" revision="android-6.0.1" />
