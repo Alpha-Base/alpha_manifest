@@ -217,7 +217,6 @@
   <project path="external/regex-re2" name="platform/external/regex-re2" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/replicaisland" name="platform/external/replicaisland" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/robolectric" name="platform/external/robolectric" groups="pdk-cw-fs,pdk-fs" />
-  <project path="external/roboto-fonts" name="platform/external/roboto-fonts" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/safe-iop" name="platform/external/safe-iop" groups="pdk" />
   <project path="external/scrypt" name="platform/external/scrypt" groups="pdk" />
   <project path="external/selinux" name="platform/external/selinux" groups="pdk" />
@@ -466,6 +465,7 @@
   <project path="device/huawei/angler" name="alpha_huawei_angler" remote="alpha" revision="android-6.0.1" />
   <project path="external/busybox" name="alpha_external_busybox" remote="alpha" revision="android-6.0.1" />
   <project path="external/DUtils" name="alpha_external_DUtils" remote="alpha" revision="android-6.0.1" />
+  <project path="external/roboto-fonts" name="alpha_external_roboto-fonts" remote="alpha" revision="android-6.0.1" />
   <project path="frameworks/base" name="alpha_frameworks_base" remote="alpha" revision="android-6.0.1" />
   <project path="frameworks/native" name="alpha_frameworks_native" remote="alpha" revision="android-6.0.1" />
   <project path="packages/apps/Browser" name="alpha_packages_apps_Browser" remote="alpha" revision="android-6.0.1"/>
