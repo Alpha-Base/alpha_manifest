@@ -461,10 +461,11 @@
   <project path="tools/studio/translation" name="platform/tools/studio/translation" groups="notdefault,tools" />
   <project path="tools/swt" name="platform/tools/swt" groups="notdefault,tools" />
   <project path="tools/tradefederation" name="platform/tools/tradefederation" groups="notdefault,tradefed" />
-  <!-- alpha additions-->
+  <!-- Tuesday-rom additions-->
   <project path="device/huawei/angler" name="alpha_huawei_angler" remote="alpha" revision="android-6.0.1" />
   <project path="external/busybox" name="alpha_external_busybox" remote="alpha" revision="android-6.0.1" />
   <project path="external/DUtils" name="alpha_external_DUtils" remote="alpha" revision="android-6.0.1" />
+  <project path="external/google" name="alpha_external_google" remote="alpha" revision="android-6.0.1" />
   <project path="external/roboto-fonts" name="alpha_external_roboto-fonts" remote="alpha" revision="android-6.0.1" />
   <project path="frameworks/base" name="alpha_frameworks_base" remote="alpha" revision="android-6.0.1" />
   <project path="frameworks/native" name="alpha_frameworks_native" remote="alpha" revision="android-6.0.1" />
@@ -475,11 +476,12 @@
   <project path="packages/apps/PackageInstaller" name="alpha_packages_apps_PackageInstaller" remote="alpha" revision="android-6.0.1" />
   <project path="packages/apps/PhoneCommon" name="alpha_packages_apps_PhoneCommon" remote="alpha" revision="android-6.0.1" />
   <project path="packages/apps/Settings" name="alpha_packages_apps_Settings" remote="alpha" revision="android-6.0.1" />
+  <project path="packages/apps/LockClock" name="alpha_packages_apps_LockClock" remote="alpha" revision="android-6.0.1" />
   <project path="packages/apps/DUI" name="alpha_packages_apps_DUI" remote="alpha" revision="android-6.0.1" />
   <project path="packages/apps/ThemeChooser" name="alpha_packages_apps_ThemeChooser" remote="alpha" revision="android-6.0.1" />
   <project path="packages/providers/ThemesProvider" name="alpha_packages_providers_ThemesProvider" remote="alpha" revision="android-6.0.1" />
   <project path="packages/services/OmniJaws" name="alpha_packages_services_OmniJaws" remote="alpha" revision="android-6.0.1" />
   <project path="system/core" name="alpha_system_core" remote="alpha" revision="android-6.0.1" />
   <project path="vendor/huawei" name="alpha_proprietary_vendor_huawei" remote="alpha" revision="android-6.0.1" />
-  <project path="vendor/solo" name="alpha_vendor" remote="alpha" revision="android-6.0.1" />
+  <project path="vendor/tuesday" name="tuesday_vendor" remote="alpha" revision="android-6.0.1" />
 </manifest>
