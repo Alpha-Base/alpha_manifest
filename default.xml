@@ -46,6 +46,7 @@
   <project path="device/google/accessory/arduino" name="device/google/accessory/arduino" groups="device" />
   <project path="device/google/accessory/demokit" name="device/google/accessory/demokit" groups="device" />
   <project path="device/huawei/angler-kernel" name="device/huawei/angler-kernel" groups="device,angler,broadcom_pdk" />
+  <project path="device/moto/shamu-kernel" name="device/moto/shamu-kernel" groups="device,shamu,broadcom_pdk" clone-depth="1" />
   <project path="device/sample" name="device/sample" groups="pdk" />
   <project path="docs/source.android.com" name="platform/docs/source.android.com" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/aac" name="platform/external/aac" groups="pdk" />
@@ -217,7 +218,6 @@
   <project path="external/regex-re2" name="platform/external/regex-re2" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/replicaisland" name="platform/external/replicaisland" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/robolectric" name="platform/external/robolectric" groups="pdk-cw-fs,pdk-fs" />
-  <project path="external/roboto-fonts" name="platform/external/roboto-fonts" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/safe-iop" name="platform/external/safe-iop" groups="pdk" />
   <project path="external/scrypt" name="platform/external/scrypt" groups="pdk" />
   <project path="external/selinux" name="platform/external/selinux" groups="pdk" />
@@ -463,8 +463,10 @@
   <project path="tools/tradefederation" name="platform/tools/tradefederation" groups="notdefault,tradefed" />
   <!-- alpha additions-->
   <project path="device/huawei/angler" name="alpha_huawei_angler" remote="alpha" revision="android-6.0.1" />
+  <project path="device/moto/shamu" name="alpha_moto_shamu" remote="alpha" revision="android-6.0.1" />
   <project path="external/busybox" name="alpha_external_busybox" remote="alpha" revision="android-6.0.1" />
   <project path="external/DUtils" name="alpha_external_DUtils" remote="alpha" revision="android-6.0.1" />
+  <project path="external/roboto-fonts" name="alpha_external_roboto-fonts" remote="alpha" revision="android-6.0.1" />
   <project path="frameworks/base" name="alpha_frameworks_base" remote="alpha" revision="android-6.0.1" />
   <project path="frameworks/native" name="alpha_frameworks_native" remote="alpha" revision="android-6.0.1" />
   <project path="packages/apps/Browser" name="alpha_packages_apps_Browser" remote="alpha" revision="android-6.0.1"/>
@@ -480,5 +482,6 @@
   <project path="packages/services/OmniJaws" name="alpha_packages_services_OmniJaws" remote="alpha" revision="android-6.0.1" />
   <project path="system/core" name="alpha_system_core" remote="alpha" revision="android-6.0.1" />
   <project path="vendor/huawei" name="alpha_proprietary_vendor_huawei" remote="alpha" revision="android-6.0.1" />
-  <project path="vendor/solo" name="alpha_vendor" remote="alpha" revision="android-6.0.1" />
+  <project path="vendor/moto" name="alpha_proprietary_vendor_moto" remote="alpha" revision="android-6.0.1" />
+  <project path="vendor/tuesday" name="alpha_vendor" remote="alpha" revision="android-6.0.1" />
 </manifest>
